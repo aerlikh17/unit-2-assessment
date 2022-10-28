@@ -18,11 +18,11 @@
       <% }); %>
     <% } else { %>
       <h3>There are no To Dos yet!</h3>
-      <hr>
-      <form action="/todo" method="POST" autocomplete="off">
+    <% } %>
+    <hr>
+      <form action="/" method="POST" autocomplete="off">
         <input type="text" name="todo" required/>
         <button type="submit">Add To Do</button>
       </form>
-    <% } %>
   </body>
 </html>
